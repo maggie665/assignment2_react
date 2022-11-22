@@ -42,26 +42,26 @@ function Semester(props) {
         });
     }
 
-    function detailSemester(id) {
-        axios.get(
-            BaseUrl + 'semesters/' + id + '/',
-            {
-                headers: {
-                    'Authorization': 'Token ' + localStorage.getItem("token"),
-                },
-            }
-        ).then(response => {
-            let datas = [];
-            for (let i = 0; i < response.data.length; i++) {
-                console.log(response.data[i]);
-                datas.push(response.data[i]);
-            }
-            setSemesters(datas);
-            setShowDetail(true);
-        }).catch(error => {
-            console.log(error);
-        });
-    }
+    // function detailSemester(id) {
+    //     axios.get(
+    //         BaseUrl + 'semesters/' + id + '/',
+    //         {
+    //             headers: {
+    //                 'Authorization': 'Token ' + localStorage.getItem("token"),
+    //             },
+    //         }
+    //     ).then(response => {
+    //         let datas = [];
+    //         for (let i = 0; i < response.data.length; i++) {
+    //             console.log(response.data[i]);
+    //             datas.push(response.data[i]);
+    //         }
+    //         setSemesters(datas);
+    //         setShowDetail(true);
+    //     }).catch(error => {
+    //         console.log(error);
+    //     });
+    // }
 
     function createSemester() {
         axios.post(

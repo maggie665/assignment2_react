@@ -11,7 +11,7 @@ import Lecturer from "./components/Lecturer";
 import Class from "./components/Class";
 import Collegeday from "./components/Collegeday";
 import Admin from "./components/Admin";
-
+import SemesterDetail from "./components/SemesterDetail";
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         {/*<Route path={"collegedayDetail"} element={ <collegedayDetail/> } />*/}
         {/*<Route path={"Createcollegeday"} element={ <Createcollegeday/> } />*/}
         {/*<Route path={"Updatecollegeday"} element={ <Updatecollegeday/> } />*/}
-        {/*        <Route path={"SemesterDetail"} element={ <SemesterDetail/> } />*/}
+           <Route path={"SemesterDetail"} element={ <SemesterDetail/> } />
         {/*<Route path={"CreateSemester"} element={ <CreateSemester/> } />*/}
         {/*<Route path={"UpdateSemester"} element={ <UpdateSemester/> } />*/}
         {/* <Route path={"StudentDetail"} element={ <StudentDetail/> } />*/}
