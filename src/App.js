@@ -10,6 +10,8 @@ import Student from "./components/Student";
 import Lecturer from "./components/Lecturer";
 import Class from "./components/Class";
 import Collegeday from "./components/Collegeday";
+import Admin from "./components/Admin";
+
 
 
 function App() {
@@ -25,6 +27,25 @@ function App() {
           <Route path={"class"} element = {<Class/>}/>
           <Route path={"course"} element = {<Course/>}/>
           <Route path={"collegeday"} element = {<Collegeday/>}/>
+          <Route path={"admin"} element = {<Admin/>}/>
+        {/*<Route path={"collegedayDetail"} element={ <collegedayDetail/> } />*/}
+        {/*<Route path={"Createcollegeday"} element={ <Createcollegeday/> } />*/}
+        {/*<Route path={"Updatecollegeday"} element={ <Updatecollegeday/> } />*/}
+        {/*        <Route path={"SemesterDetail"} element={ <SemesterDetail/> } />*/}
+        {/*<Route path={"CreateSemester"} element={ <CreateSemester/> } />*/}
+        {/*<Route path={"UpdateSemester"} element={ <UpdateSemester/> } />*/}
+        {/* <Route path={"StudentDetail"} element={ <StudentDetail/> } />*/}
+        {/*<Route path={"CreateStudent"} element={ <CreateStudent/> } />*/}
+        {/*<Route path={"UpdateStudent"} element={ <UpdateStudent/> } />*/}
+        {/*<Route path={"LecturerDetail"} element={ <LecturerDetail/> } />*/}
+        {/*<Route path={"CreateLecturer"} element={ <CreateLecturer/> } />*/}
+        {/*<Route path={"UpdateLecturer"} element={ <UpdateLecturer/> } />*/}
+        {/*<Route path={"classDetail"} element={ <classDetail/> } />*/}
+        {/*<Route path={"Createclass"} element={ <Createclass/> } />*/}
+        {/*<Route path={"Updateclass"} element={ <Updateclass/> } />*/}
+        {/*<Route path={"courseDetail"} element={ <courseDetail/> } />*/}
+        {/*<Route path={"Createcourse"} element={ <Createcourse/> } />*/}
+        {/*<Route path={"Updatecourse"} element={ <Updatecourse/> } />*/}
       </Routes>
     </div>
   );
